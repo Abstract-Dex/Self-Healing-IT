@@ -1,0 +1,197 @@
+[
+  {
+    "id": "tkt-100",
+    "title": "Network latency issue",
+    "description": "Observed abnormal response times in the internal network.",
+    "status": "resolved",
+    "contributors": [
+      {
+        "contributor_name": "Frank",
+        "action_taken": "Ran diagnostics",
+        "timestamp": "2025-09-01T09:00:00Z"
+      },
+      {
+        "contributor_name": "David",
+        "action_taken": "Replaced hardware component",
+        "timestamp": "2025-09-01T09:15:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tkt-101",
+    "title": "Disk space running low",
+    "description": "Server /var partition is over 90% full.",
+    "status": "resolved",
+    "contributors": [
+      {
+        "contributor_name": "Bob",
+        "action_taken": "Reconfigured settings",
+        "timestamp": "2025-09-01T10:00:00Z"
+      },
+      {
+        "contributor_name": "Eve",
+        "action_taken": "Tested connectivity",
+        "timestamp": "2025-09-01T10:15:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tkt-102",
+    "title": "CPU overheating",
+    "description": "CPU temperature has exceeded safe operating limits.",
+    "status": "resolved",
+    "contributors": [
+      {
+        "contributor_name": "Alice",
+        "action_taken": "Updated configuration",
+        "timestamp": "2025-09-01T11:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tkt-103",
+    "title": "Application crash on startup",
+    "description": "Critical application fails immediately after launch.",
+    "status": "resolved",
+    "contributors": [
+      {
+        "contributor_name": "Charlie",
+        "action_taken": "Updated configuration",
+        "timestamp": "2025-09-01T12:00:00Z"
+      },
+      {
+        "contributor_name": "Hank",
+        "action_taken": "Cleared cache",
+        "timestamp": "2025-09-01T12:15:00Z"
+      },
+      {
+        "contributor_name": "Hank",
+        "action_taken": "Ran diagnostics",
+        "timestamp": "2025-09-01T12:30:00Z"
+      },
+      {
+        "contributor_name": "Eve",
+        "action_taken": "Escalated issue",
+        "timestamp": "2025-09-01T12:45:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tkt-104",
+    "title": "Authentication failure for users",
+    "description": "Multiple users unable to login due to credential mismatch.",
+    "status": "resolved",
+    "contributors": [
+      {
+        "contributor_name": "Eve",
+        "action_taken": "Ran diagnostics",
+        "timestamp": "2025-09-01T13:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tkt-105",
+    "title": "Database connection timeout",
+    "description": "Database server taking too long to respond to queries.",
+    "status": "resolved",
+    "contributors": [
+      {
+        "contributor_name": "David",
+        "action_taken": "Rebooted server",
+        "timestamp": "2025-09-01T14:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tkt-106",
+    "title": "File corruption detected",
+    "description": "Corruption detected in system log files.",
+    "status": "resolved",
+    "contributors": [
+      {
+        "contributor_name": "Hank",
+        "action_taken": "Reconfigured settings",
+        "timestamp": "2025-09-01T15:00:00Z"
+      },
+      {
+        "contributor_name": "Hank",
+        "action_taken": "Reconfigured settings",
+        "timestamp": "2025-09-01T15:15:00Z"
+      },
+      {
+        "contributor_name": "Eve",
+        "action_taken": "Tested connectivity",
+        "timestamp": "2025-09-01T15:30:00Z"
+      },
+      {
+        "contributor_name": "Grace",
+        "action_taken": "Escalated issue",
+        "timestamp": "2025-09-01T15:45:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tkt-107",
+    "title": "Printer not responding",
+    "description": "Office printer does not respond to print jobs.",
+    "status": "resolved",
+    "contributors": [
+      {
+        "contributor_name": "Alice",
+        "action_taken": "Checked logs",
+        "timestamp": "2025-09-01T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tkt-108",
+    "title": "High memory usage on server",
+    "description": "Unusually high RAM consumption noted on production server.",
+    "status": "open",
+    "contributors": [
+      {
+        "contributor_name": "Bob",
+        "action_taken": "Applied patch",
+        "timestamp": "2025-09-01T17:00:00Z"
+      },
+      {
+        "contributor_name": "Eve",
+        "action_taken": "Reconfigured settings",
+        "timestamp": "2025-09-01T17:15:00Z"
+      },
+      {
+        "contributor_name": "Frank",
+        "action_taken": "Replaced hardware component",
+        "timestamp": "2025-09-01T17:30:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tkt-109",
+    "title": "Slow response from API",
+    "description": "API endpoint returning responses with delay > 3s.",
+    "status": "open",
+    "contributors": [
+      {
+        "contributor_name": "Eve",
+        "action_taken": "Cleared cache",
+        "timestamp": "2025-09-01T18:00:00Z"
+      },
+      {
+        "contributor_name": "Eve",
+        "action_taken": "Escalated issue",
+        "timestamp": "2025-09-01T18:15:00Z"
+      },
+      {
+        "contributor_name": "Charlie",
+        "action_taken": "Checked logs",
+        "timestamp": "2025-09-01T18:30:00Z"
+      },
+      {
+        "contributor_name": "Frank",
+        "action_taken": "Checked logs",
+        "timestamp": "2025-09-01T18:45:00Z"
+      }
+    ]
+  }
+]

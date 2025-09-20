@@ -1,0 +1,37 @@
+[
+  {
+    "id": "tkt-200",
+    "title": "Server not powering on",
+    "description": "Physical server fails to boot after maintenance restart.",
+    "status": "open",
+    "contributors": []
+  },
+  {
+    "id": "tkt-201",
+    "title": "Application crashing on login",
+    "description": "Multiple users report crashes while logging into the HR portal.",
+    "status": "open",
+    "contributors": []
+  },
+  {
+    "id": "tkt-202",
+    "title": "VPN connection unstable",
+    "description": "Frequent disconnections observed on remote VPN clients.",
+    "status": "open",
+    "contributors": []
+  },
+  {
+    "id": "tkt-203",
+    "title": "Slow query performance",
+    "description": "Database queries taking longer than usual in production.",
+    "status": "open",
+    "contributors": []
+  },
+  {
+    "id": "tkt-204",
+    "title": "Suspicious login attempts",
+    "description": "Multiple failed login attempts detected from unknown IP addresses.",
+    "status": "open",
+    "contributors": []
+  }
+]
