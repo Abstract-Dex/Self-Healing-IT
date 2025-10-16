@@ -15,4 +15,3 @@ This repository contains an approach to automate the process of identifying and 
 <img width="673" height="1235" alt="Self-healing-it" src="https://github.com/user-attachments/assets/39480eb2-3c30-4a83-af42-bae4a5221b08" />
 
 **NOTE:** This project is a work in progress and is not yet ready for production.
-
