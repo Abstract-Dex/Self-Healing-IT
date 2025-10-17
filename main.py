@@ -17,6 +17,7 @@ class TicketManager:
         self.embedding_model = embedding_model
 
     def get_embeddings(self, text: str):
+        """Function to get the embeddings for the text using the openai client"""
         response = self.openai_client.embeddings.create(
             input=text,
             model=self.embedding_model
@@ -24,6 +25,7 @@ class TicketManager:
         return response.data[0].embedding
 
     def ingest_tickets(self, file_path: str):
+        """Function to ingest the tickets from the file path to the chroma db collection. Currently hardcoded to ingest from a json file."""
         with open(file_path, 'r') as f:
             tickets = json.load(f)
         for ticket in tickets:
@@ -46,6 +48,7 @@ class TicketManager:
         print("Ingestion complete.")
 
     def upsert_ticket(self, ticket_id: str, title: str, description: str, status: str, contributors: List[Dict[str, Any]]):
+        """Function to insert the ticket into the chroma db collection or update if it already exists. Currently hardcoded to upsert a single ticket."""
         embedding = self.get_embeddings(description)
         metadata = {
             "title": title,
@@ -60,6 +63,7 @@ class TicketManager:
         print(f"Ticket {ticket_id} upserted.")
 
     def search_tickets(self, query: str, n_results: int = 3):
+        """Function to search the tickets from the chroma db collection using the query. Currently hardcoded to search for a single query."""
         query_embedding = self.get_embeddings(query)
         results = self.collection.query(
             query_embeddings=[query_embedding],
